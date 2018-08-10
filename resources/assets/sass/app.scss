@@ -1,0 +1,116 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+$brand-name-color: #a9d3f6;
+$banner-image: url("../../../public/images/banner.jpg");
+$break-small: 1024px;
+$break-large: 768px;
+
+.navbar-laravel {
+  background-color: #4c6b83;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.container {
+  a {
+    color: $brand-name-color;
+    text-decoration: none;
+    font-size: 25px;
+  }
+}
+
+.padding-login {
+  padding-top: 120px;
+}
+
+.home-banner {
+  background-image: url("../images/banner.jpg");
+  background-size: 100% 100%;
+  height: 400px;
+}
+.home-banner-filp {
+  background-image: url("../images/flip-banner.jpg");
+  background-size: 100% 100%;
+  height: 400px;
+}
+.home-banner2 {
+  margin-top: 50px;
+}
+.home-banner3 {
+  background-image: url("../images/flip-banner.jpg");
+  background-size: 100% 100%;
+  height: 300px;
+  margin-top: -30px;
+  position: relative;
+}
+.top-banner {
+  color: white;
+  padding-top: 40px;
+}
+.body-banner {
+  color: white;
+  width: 35%;
+}
+.p-width {
+  width: 80%;
+}
+.form-control1 {
+  width: 30%;
+  float: right;
+  height: 40px;
+  background-color: #cbf6ff;
+  border-color: transparent;
+}
+
+.form-control2 {
+  width: 30%;
+  float: right;
+  height: 40px;
+}
+.form-user-profile {
+  width: 30%;
+  height: 40px;
+  background-color: #cbf6ff;
+  padding-left: 10px;
+  border-color: transparent;
+}
+.submit-button {
+  background-color: #6cccff;
+  width: 100px;
+  color: #3076c7;
+}
+.submit-button2 {
+  background-color: #3076c7;
+  width: 100px;
+  height: 40px;
+  color: #cbf6ff;
+}
+
+.float-login {
+  float: right;
+}
+
+.padding-profile {
+  padding-left: 40px;
+  padding-top: 40px;
+}
+
+.user-profile-text {
+  position: absolute;
+  bottom: 16px;
+  right: 32px;
+  font-size: 18px;
+}
+.profile-background {
+  background-color: #cbf6ff;
+}
+
+.header-color {
+  color: white;
+}
